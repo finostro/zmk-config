@@ -4,7 +4,7 @@
 if SHIELD_FELIPE_HANDWIRED_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Aurora Corne"
+    default "Felipe Handwired"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
