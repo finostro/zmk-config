@@ -17,13 +17,13 @@
 
 
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS
-&kp TAB    &kp Q         &kp W         &kp F         &kp P         &kp B                    &kp J         &kp L         &kp U         &kp Y         &kp SEMI      &kp BSLH
-&kp ESC    &kp A         &kp R         &kp S         &kp T         &kp G                    &kp M         &kp N         &kp E         &kp I         &kp O         &kp SQT
-&kp LSHFT  &kp Z         &kp X         &kp C         &kp D         &kp V                    &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH      &kp ESC
-&kp LCTRL  &mo LALT      &kp LGUI      &kp LALT                                                                         &kp RALT      &kp RGUI      &kp RALT      &kp RCTRL
-                                                     &kp ENTER     &kp K  &kp K  &kp K      &kp K         &kp K
-                                                                   &kp K  &kp K  &kp K      &kp K         &kp K
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS
+&kp TAB    &kp Q         &kp W         &kp F         &kp P         &kp B                          &kp J         &kp L         &kp U         &kp Y         &kp SEMI      &kp BSLH
+&kp ESC    &kp A         &kp R         &kp S         &kp T         &kp G                          &kp M         &kp N         &kp E         &kp I         &kp O         &kp SQT
+&kp LSHFT  &kp Z         &kp X         &kp C         &kp D         &kp V                          &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH      &kp ESC
+&kp LCTRL  &mo LALT      &kp LGUI      &kp LALT                                                                               &kp RALT      &kp RGUI      &kp RALT      &kp RCTRL
+                                                     &kp ENTER     &kp K        &kp K  &kp K      &kp K         &kp K
+                                                                   &kp K        &kp K  &kp K      &kp K         &kp K
             >;
         };
 
