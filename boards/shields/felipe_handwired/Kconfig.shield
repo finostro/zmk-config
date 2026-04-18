@@ -1,0 +1,8 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_FELIPE_HANDWIRED_LEFT
+    def_bool $(shields_list_contains,felipe_handwired_left)
+
+config SHIELD_FELIPE_HANDWIRED_RIGHT
+    def_bool $(shields_list_contains,felipe_handwired_right)

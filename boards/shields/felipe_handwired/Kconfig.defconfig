@@ -1,0 +1,22 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_FELIPE_HANDWIRED_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Aurora Corne"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_FELIPE_HANDWIRED_LEFT
+
+if SHIELD_FELIPE_HANDWIRED_LEFT || SHIELD_FELIPE_HANDWIRED_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+
+
+
+endif # SHIELD_FELIPE_HANDWIRED_LEFT || SHIELD_FELIPE_HANDWIRED_RIGHT
