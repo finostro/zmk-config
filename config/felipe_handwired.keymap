@@ -23,7 +23,7 @@
 &kp LSHFT  &kp Z         &kp X         &kp C         &kp D         &kp V                          &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH      &kp ESC
 &kp LCTRL  &kp LALT       &kp LMETA      &kp LALT                                                                                &kp RALT      &kp RGUI      &kp RALT      &kp RCTRL
                                                      &kp ENTER     &kp K        &kp K  &kp K      &kp K         &kp K
-                                                                   &kp K        &kp K  &kp K      &kp K         &kp K
+                                                                   &kp K        &kp K  &kp K      &kp K
             >;
         };
 
