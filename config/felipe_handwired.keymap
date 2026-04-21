@@ -16,9 +16,11 @@
             #binding-cells = <2>;
             bindings = <&lt>, <&mt>;
 
-            tapping-term-ms = <150>;
+            tapping-term-ms = <180>;
             flavor = "balanced";
             hold-trigger-key-positions = <56 57 58 63 62 64 59 60 61 65>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <125>;
         };
     };
 
