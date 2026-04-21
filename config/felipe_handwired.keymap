@@ -9,6 +9,19 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        hold_tap_magic: hold_tap_magic {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAP_MAGIC";
+            #binding-cells = <2>;
+            bindings = <&lt>, <&mt>;
+
+            tapping-term-ms = <150>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <56 57 58 63 62 64 59 60 61 65>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
