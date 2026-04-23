@@ -15,7 +15,7 @@
     require-prior-idle-ms = <125>;
 };
 
-&lt{
+&lt {
     tapping-term-ms = <180>;
     flavor = "balanced";
     quick-tap-ms = <200>;
@@ -23,7 +23,6 @@
 };
 
 / {
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -45,7 +44,7 @@
 &trans  &kp F1            &kp F2             &kp F3          &kp F4           &kp F5                           &kp F6     &kp F7        &kp F8                &kp F9                 &kp F10         &kp F11
 &trans  &trans            &kp STAR           &kp PLUS        &kp MINUS        &kp PERCENT                      &trans     &kp QUESTION  &kp LESS_THAN         &kp GREATER_THAN       &trans          &kp F12
 &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp EXCLAMATION                  &kp COLON  &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &trans
-&trans  &kp DOLLAR        &kp HASH           &kp CARET       &kp AMPERSAND    &trans                           &trans     &kp AT_SIGN   &kp PIPE              &kp EQUAL              &trans          &trans
+&trans  &kp DOLLAR        &kp HASH           &kp CARET       &kp AMPERSAND    &trans                           &trans     &kp AT_SIGN   &kp PIPE              &kp EQUAL              &kp BACKSLASH   &trans
 &trans  &trans            &trans             &trans                                                                                     &trans                &trans                 &trans          &trans
                                                              &trans           &trans           &trans  &trans  &trans     &trans
                                                                               &trans           &trans  &trans  &trans
@@ -66,13 +65,13 @@
 
         layer_3 {
             bindings = <
-&bootloader  &to 1         &to 2               &to 3        &to 4                &trans                  &trans         &trans          &trans          &trans           &to 0       &trans
-&trans       &trans        &trans              &trans       &trans               &trans                  &kp PAGE_DOWN  &kp HOME        &kp UP_ARROW    &kp INSERT       &trans      &trans
-&trans       &kp CAPSLOCK  &kp LG(LEFT_ARROW)  &kp LG(TAB)  &kp LG(RIGHT_ARROW)  &trans                  &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END     &kp PRINTSCREEN
-&trans       &trans        &trans              &trans       &trans               &trans                  &kp PAGE_UP    &trans          &trans          &trans           &kp K_MENU  &trans
-&trans       &trans        &trans              &trans                                                                                   &trans          &trans           &trans      &trans
-                                                            &trans               &trans  &trans  &trans  &trans         &trans
-                                                                                 &trans  &trans  &trans  &trans
+&bootloader  &to 1         &to 2               &to 3         &to 4                &trans                  &trans         &trans          &trans          &trans           &to 0       &trans
+&trans       &trans        &trans              &kp LG(UP)    &trans               &trans                  &kp PAGE_DOWN  &kp HOME        &kp UP_ARROW    &kp INSERT       &trans      &trans
+&trans       &kp CAPSLOCK  &kp LG(LEFT_ARROW)  &kp LG(DOWN)  &kp LG(RIGHT_ARROW)  &trans                  &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END     &kp PRINTSCREEN
+&trans       &trans        &trans              &trans        &trans               &trans                  &kp PAGE_UP    &trans          &trans          &trans           &kp K_MENU  &trans
+&trans       &trans        &trans              &trans                                                                                    &trans          &trans           &trans      &trans
+                                                             &trans               &trans  &trans  &trans  &trans         &trans
+                                                                                  &trans  &trans  &trans  &trans
             >;
         };
 
